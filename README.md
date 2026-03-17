@@ -4,7 +4,6 @@
 
 This project demonstrates a race condition when using `Bridge.provide()` on Arduino UNO-Q, and how it can be resolved using either:
 
-- `Bridge.provide_safe()` (framework-level solution)
 - a Zephyr mutex (`k_mutex`) (RTOS-level solution)
 
 ---
@@ -67,6 +66,9 @@ Result:
 - the callback is executed in the same context as `loop()`
 - no concurrent access
 - no inconsistent state
+
+👉 “Check the link”  
+[Nom du projet]([https://github.com/utilisateur/repository](https://github.com/philippe86220/UNO-Q-bridge-provide-safe-vs-provide))
 
 ---
 
@@ -141,6 +143,9 @@ Bridge.provide("update", updateCounter);
 Bridge.provide_safe("update", updateCounter);
 ```
 
+👉 “Check the link”  
+[Nom du projet]([https://github.com/utilisateur/repository](https://github.com/philippe86220/UNO-Q-bridge-provide-safe-vs-provide))
+
 → errors disappear
 
 3. Alternatively, keep `provide()` and add a mutex
@@ -149,6 +154,6 @@ Bridge.provide_safe("update", updateCounter);
 
 ---
 
-## Author
+## Acknowledgments
 
-Philippe86220
+This project benefited from discussions and technical assistance provided by ChatGPT (OpenAI), used as a learning and development tool.

@@ -68,7 +68,7 @@ Result:
 - no inconsistent state
 
 👉 “Check the link”  
-[Nom du projet](https://github.com/philippe86220/UNO-Q-bridge-provide-safe-vs-provide)
+[UNO-Q-bridge-provide-safe-vs-provide](https://github.com/philippe86220/UNO-Q-bridge-provide-safe-vs-provide)
 
 ---
 
@@ -144,7 +144,7 @@ Bridge.provide_safe("update", updateCounter);
 ```
 
 👉 “Check the link”  
-[Nom du projet](https://github.com/philippe86220/UNO-Q-bridge-provide-safe-vs-provide)
+[UNO-Q-bridge-provide-safe-vs-provide](https://github.com/philippe86220/UNO-Q-bridge-provide-safe-vs-provide)
 
 → errors disappear
 

@@ -1,4 +1,4 @@
-# Bridge.provide vs Bridge.provide_safe — Race Condition Demonstration (UNO-Q)
+# Bridge.provide vs Bridge.provide_safe vs k_mutex — Race Condition Demonstration (UNO-Q)
 
 ## Overview
 
